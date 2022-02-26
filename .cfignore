@@ -1,8 +1,11 @@
+.vscode/
+__pycache__/
+
 
 # editors and ide
 .idea/
 .vscode/
-venv/
+
 
 # testing
 /coverage
