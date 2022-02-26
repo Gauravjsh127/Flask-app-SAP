@@ -17,3 +17,8 @@ This sample flask microservice is to add/readone/readall conditions from sqlited
 Ref: https://www.liquidweb.com/kb/how-to-setup-a-python-virtual-environment-on-windows-10/
 
 Note: All command on windows command prompt and not power shell
+
+## Deploy App to SAP BTP cloudfoundry
+
+ - cf8 login -a <API_POINT> -o <ORG> -s <SPACE> -u <EMAIL_ID>
+ - cf8 push

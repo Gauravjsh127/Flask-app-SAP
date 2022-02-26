@@ -1,2 +1,4 @@
 applications:
 - name: my-flask-app
+  buildpacks:
+    - python_buildpack
