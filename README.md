@@ -22,3 +22,19 @@ Note: All command on windows command prompt and not power shell
 
  - cf8 login -a <API_POINT> -o <ORG> -s <SPACE> -u <EMAIL_ID>
  - cf8 push
+
+
+ ## How to control scaling
+
+ - Horizontal scaling : Creating multiple instance
+
+    cf8 scale <App Name> -i <INSTANCES>
+
+- Vertical scaling: UP/DOWN : Increasing disck space or RAM
+
+    - memory : cf8 scale <APP_NAME> -m 512M
+    - diskspace : cf8 scale <APP_NAME> -k 512M
+
+Use quota to increase multiple instance/memory/disk space
+
+All mapping routing is handled internally
