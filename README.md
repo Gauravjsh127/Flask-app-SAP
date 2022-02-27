@@ -1,8 +1,8 @@
-# Sample Flask microservice Example
+# Sample Flask Test microservice Example
 
-This sample flask microservice is to add/readone/readall conditions from sqlitedatabase.
+This sample flask microservice to perform CRUD operations.
 
-## Setup Locally : conditions microservice (For debug purpose only)
+## Setup Locally : Test microservice: Crud operations (For debug purpose only)
 
 - Install python(3+), pip ,venv and vscode(or you can also choose editor of your choice like vscode) 
 - checkout the source code.
@@ -12,7 +12,6 @@ This sample flask microservice is to add/readone/readall conditions from sqlited
 - pip install -r requirements.txt
 - python run.py
 - Visit the URL for conditions microservice documentation : http://127.0.0.1:5000/docs
-
 
 Ref: https://www.liquidweb.com/kb/how-to-setup-a-python-virtual-environment-on-windows-10/
 
